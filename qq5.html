@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>INTERACTIVE QUIZ</title>
+    </head>
+  <style>
+        .header{
+            position: fixed;
+            width: 100%;
+            padding: 20px 10%;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .navbar a {
+            font-size: 18px;
+            color: black;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+            transition: .3s;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .home {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .home-content {
+            max-width: 600px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background: #9fafdf;
+            border-radius: 6px;
+            position: absolute;
+            width: 600px;
+            height: 400px
+        }
+        .home-content h1 {
+            font-size: 78px;
+            font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .home-content .start-btn{
+            width: 190px;
+            height: 55px;
+            background: #color;
+            border: 2px solid #;
+            outline: none;
+            border-radius:6px;
+            box-shadow: 0 0 10px; 
+            font-size: 18px;
+            color: ;
+            letter-spacing: 1px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: .5s;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .home-content p{
+            font-size: 16px;
+            text-align: left;
+            margin-bottom: 30px;
+            margin-top: -40px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .Question{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .next{
+            text-decoration: none;
+            color: black;
+        }
+        .back{
+            font-size: 20px;
+            margin-top: 2.5%;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+<body background="C:\Users\User\Desktop\JAVASCRIPT ICT\bg.jpg">
+
+<main class="mina">
+            <header class="header">
+                <nav class="navbar">
+                    <a href="C:\Users\User\Desktop\JAVASCRIPT ICT\index.html" class="active">Home</a>
+                    <a href="C:\Users\User\Desktop\JAVASCRIPT ICT\about.html">About</a>
+                </nav>
+            </header>
+
+  <section class="home">
+                <div class="home-content">
+
+ <h1>Question #5</h1>
+
+<p> <font-size="15">  <p>
+
+<label for="name" class="Question">The HTML tag that specifies the favicon<br> for a web page is  &#8249;icon&#8250;</label> <br>
+
+<input type="radio" name size="25" value="True"> True </input> <br>
+<input type="radio" name size="25" value="False"> False </input> <br> <br>
+
+<button onclick="myFunction()"> Answer </button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "False";
+}
+</script>
+
+<button class="start-btn"> <a href="C:\Users\User\Desktop\JAVASCRIPT ICT\about.html" class="next"> Next Question </a> </button>
+<a href="C:\Users\User\Desktop\JAVASCRIPT ICT\qq4.html" class="back">Back</a>
+                </div>
+            </section>
+        </main>
+
+        </div>
+    </body>
+</html>
